@@ -1,0 +1,21 @@
+{
+    "name": "ipn-theme",
+    "displayName": "ipn-theme",
+    "description": "A simple theme based on the colors of Instituto Poltécnico Nacional",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "IPN theme",
+                "uiTheme": "vs",
+                "path": "./themes/IPN theme-color-theme.json"
+            }
+        ]
+    }
+}
